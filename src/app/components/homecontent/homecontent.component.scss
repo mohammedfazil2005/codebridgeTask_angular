@@ -1,40 +1,59 @@
-.each-card{
+
+.card-container{
+ display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  place-items: center;
+  gap: 10px;
+
+.each-card {
     display: flex;
     flex-direction: column;
     gap: 10px;
     border: 1px solid lightgray;
-    max-width: 330px;
-   
+    width: 80%;
+    height: auto;
+    height: 400px;
 
-    img{
+
+    img {
         width: 100%;
         height: 180px;
     }
-    h6{
+
+    h6 {
         color: gray;
         font-weight: 400;
     }
 
-    .about-div{
+    .about-div {
         display: flex;
         flex-direction: column;
         gap: 10px;
-         padding: 10px;
+        padding: 10px;
 
-        h1{
-            font-size: 24px;
+        h1 {
+            font-size: 20px;
             font-weight: 300;
         }
-        p{
+
+        p {
             font-size: 13px;
             color: gray;
             text-align: justify;
         }
-        h5{
+
+        h5 {
             font-weight: 400;
-            font-size: 20px;
+            font-size: 18px;
+            cursor: pointer;
         }
     }
 
+   
     
+
+
+}
+
+
 }

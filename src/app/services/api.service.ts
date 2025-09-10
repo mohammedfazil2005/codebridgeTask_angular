@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class ApiService {
 
-  // /articles/
+
   constructor(private http:HttpClient) { }
 
   getArticles(){
